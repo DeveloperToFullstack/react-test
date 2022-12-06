@@ -1,0 +1,28 @@
+.header__body {
+    display: grid;
+    grid-template:1fr / auto 1fr auto;
+    gap: 1rem;
+    padding: 1rem 0;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.header__log {
+    .header__img {
+        width: 40px;
+        height: 40px;
+    }
+}
+.header__bar {
+    marquee {
+        color: #fff;
+        padding: 0.5rem 0;
+        background: linear-gradient(270deg, #FF9494 5.22%, rgba(254, 197, 51, 0.71) 95.3%);
+    }
+    span {margin-right: 6rem;}
+}
+.header__logo {
+    .header__img {
+        width: 85px;
+        height: 64px;
+    }
+}
